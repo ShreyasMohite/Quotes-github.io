@@ -8,7 +8,7 @@ window.onload = () => {
         let quote = document.getElementById("quotes");
         let author = document.getElementById("author");
         let index = parseInt(Math.random() * 48);
-        console.log(index);
+        //console.log(index);
 
         let get_quotes = moti.motivation[index].quote;
         let get_author = moti.motivation[index].author;
